@@ -1,0 +1,43 @@
+{
+  "name": "portfolio-lms",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:generate": "prisma generate",
+    "db:push": "prisma db push",
+    "db:studio": "prisma studio",
+    "db:seed": "tsx prisma/seed.ts"
+  },
+  "dependencies": {
+    "@next/swc-win32-x64-msvc": "^16.2.2",
+    "@prisma/client": "^5.10.0",
+    "bcryptjs": "^2.4.3",
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.15.0",
+    "jose": "^5.2.2",
+    "lucide-react": "^0.460.0",
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.0.1",
+    "recharts": "^3.8.1",
+    "tailwind-merge": "^2.2.1",
+    "zustand": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "prisma": "^5.10.0",
+    "tailwindcss": "^3.4.15",
+    "tsx": "^4.21.0",
+    "typescript": "^5.6.3"
+  }
+}
