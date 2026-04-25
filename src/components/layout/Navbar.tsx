@@ -6,6 +6,7 @@ import { motion } from 'framer-motion'
 import { Menu, X, Moon, Sun, Code2, User, LogOut } from 'lucide-react'
 import { useState, useEffect } from 'react'
 import { useTheme } from './ThemeProvider'
+import { label } from 'framer-motion/client'
 
 const navItems = [
   { href: '/', label: 'Home' },

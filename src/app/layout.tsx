@@ -4,6 +4,8 @@ import './globals.css'
 import { ThemeProvider } from '@/components/layout/ThemeProvider'
 import { Navbar } from '@/components/layout/Navbar'
 import { Footer } from '@/components/layout/Footer'
+import { div } from 'framer-motion/client'
+import { Agent } from 'http'
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -16,12 +18,12 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Farhad Ali | Portfolio & Learning Platform',
+  title: 'Farhad Gul| Portfolio & Learning Platform',
   description: 'Full-stack developer, AI enthusiast, and educator. Explore my projects and learn Python, SQL, and Agentic AI through comprehensive courses.',
   keywords: ['portfolio', 'developer', 'AI', 'Python', 'SQL', 'courses', 'tutorials'],
-  authors: [{ name: 'Farhad Ali' }],
+  authors: [{ name: 'Farhad Gul' }],
   openGraph: {
-    title: 'Farhad Ali | Portfolio & Learning Platform',
+    title: 'Farhad Gul | Portfolio & Learning Platform',
     description: 'Full-stack developer, AI enthusiast, and educator.',
     type: 'website',
   },
